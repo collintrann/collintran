@@ -3,7 +3,7 @@
 main {
   background-color: var(--main-background-color);
   width: 100%;
-  padding-top: 75px;
+  padding-top: 25px;
 }
 
 .main-content-container {
@@ -11,18 +11,19 @@ main {
   justify-content: left;
   align-items: center;
   height: 100%;
-  padding-top: 14%;
+  padding-top: 5%;
   padding-bottom: 100%;
 }
 
 .home-content {
   text-align: left;
-  padding-left: 10%;
+  padding-left: 15%;
+  padding-right: 15%;
   color: var(--main-text-color);
 }
 
 .home-name {
-  font-size: 56px;
+  font-size: 48px;
   margin-bottom: 16px;
 }
 
@@ -32,7 +33,32 @@ main {
 }
 
 .home-caption {
-  font-size: 24px;
+  font-size: 20px;
+  font-weight: 400;
   text-align: left;
   width: 100%;
+  margin-bottom: 24px;
+}
+
+.section-header {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-top: 20px;
+}
+
+.section {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 20px;
+}
+
+.bullet-container {
+  margin-top: 8px;
+}
+.bullet {
+  font-size: 20px;
+  padding: 8px;
+  margin-left: 14px;
 }
