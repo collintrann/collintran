@@ -1,0 +1,21 @@
+* {
+  font-family: "Anonymous Pro", monospace;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.15s;
+}
+
+:root {
+  --navbar-footer-background-color: rgb(26, 32, 44);
+  --navbar-text-color: #ffffff;
+  --main-background-color: rgb(26, 32, 44);
+  --main-text-color: #ffffff;
+}
+
+[data-theme="dark-mode"] {
+  --navbar-footer-background-color: #ffffff;
+  --navbar-text-color: rgb(26, 32, 44);
+  --main-background-color: #ffffff;
+  --main-text-color: rgb(26, 32, 44);
+}
