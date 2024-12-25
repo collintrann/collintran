@@ -7,15 +7,15 @@
 }
 
 :root {
-  --navbar-footer-background-color: rgb(26, 32, 44);
-  --navbar-text-color: #ffffff;
+  --navbar-background-color: rgba(26, 32, 44, 0.9);
+  --navbar-text-color: rgb(255, 255, 255);
   --main-background-color: rgb(26, 32, 44);
-  --main-text-color: #ffffff;
+  --main-text-color: rgb(255, 255, 255);
 }
 
 [data-theme="dark-mode"] {
-  --navbar-footer-background-color: #ffffff;
+  --navbar-background-color: rgba(255, 255, 255, 0.9);
   --navbar-text-color: rgb(26, 32, 44);
-  --main-background-color: #ffffff;
+  --main-background-color: rgb(255, 255, 255);
   --main-text-color: rgb(26, 32, 44);
 }

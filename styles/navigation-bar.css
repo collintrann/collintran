@@ -8,6 +8,8 @@
   height: 75px;
   width: 100%;
   background-color: var(--navbar-background-color);
+  backdrop-filter: blur(3px);
+  z-index: 1000;
 }
 
 .logo {
