@@ -40,12 +40,21 @@ main {
   margin-bottom: 36px;
 }
 
+.top-section-container {
+  padding-top: 12px;
+  padding-bottom: 24px;
+}
+
+.section-container {
+  padding-top: 96px;
+  padding-bottom: 24px;
+}
+
 .section-header {
   font-size: 20px;
   font-weight: bold;
   padding-top: 12px;
   padding-bottom: 12px;
-  margin-top: 20px;
 }
 
 .section {
